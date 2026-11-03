@@ -11,7 +11,7 @@
 <body>
   <header class="topbar">
     <a class="brand" href="#"><span class="brand-mark">SB</span><span>SB <b>ANALYZE</b><small>CRICKET NEWS & ANALYSIS</small></span></a>
-    <nav><a href="#latest">ताज़ा खबरें</a><a href="#about">हमारे बारे में</a><button id="admin-open" class="outline-btn">Admin Login</button></nav>
+    <nav><a href="#latest">ताज़ा खबरें</a><a href="#about">हमारे बारे में</a><a href="./privacy.html">Privacy</a><a href="./contact.html">Contact</a><button id="admin-open" class="outline-btn">Admin Login</button></nav>
   </header>
   <main>
     <section class="hero">
@@ -30,7 +30,7 @@
     </section>
     <section id="about" class="about"><p class="eyebrow">ABOUT SB ANALYZE</p><h2>सिर्फ खबर नहीं,<br><em>खेल की समझ भी।</em></h2><p>SB ANALYZE पर आपको क्रिकेट की खबरें, भरोसेमंद स्रोतों के लिंक और मैच का विश्लेषण एक ही जगह मिलेगा।</p></section>
   </main>
-  <footer><span>© <span id="year"></span> SB ANALYZE</span><span>CRICKET UPDATES | MATCH ANALYSIS</span></footer>
+  <footer><span>© <span id="year"></span> SB ANALYZE</span><span>CRICKET UPDATES | MATCH ANALYSIS</span><span><a href="./privacy.html">Privacy Policy</a> · <a href="./contact.html">Contact</a></span></footer>
 
   <dialog id="auth-dialog">
     <form method="dialog" class="dialog-top"><div><p class="eyebrow">SECURE ACCESS</p><h2>Admin Panel</h2></div><button class="close" aria-label="Close">×</button></form>
@@ -51,7 +51,7 @@
         <label>पूरी खबर<textarea id="news-content" rows="6" required placeholder="पूरी खबर यहाँ लिखें…"></textarea></label>
         <label>फोटो URL (वैकल्पिक)<input id="news-image" type="url" placeholder="https://…"></label>
         <div class="two-col"><label>स्रोत का नाम<input id="news-source" placeholder="जैसे BCCI / Cricbuzz"></label><label>स्रोत लिंक<input id="news-source-url" type="url" placeholder="https://…"></label></div>
-        <div class="auth-actions"><button class="outline-btn" id="save-new-draft" type="button">ड्राफ्ट सेव करें</button><button class="gold-btn" type="submit">खबर प्रकाशित करें</button></div>
+        <div class="auth-actions"><button class="outline-btn" id="save-new-draft" type="button">ड्राफ्ट सेव करें</button><button class="gold-btn" type="submit">Draft में सेव करें</button></div>
         <p id="publish-message" class="message" role="status"></p>
       </form>
       <section class="review-section">
